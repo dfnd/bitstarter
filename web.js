@@ -1,7 +1,7 @@
 var express = require('express');
-var fs = require('fs');
+//var fs = require('fs');
 //var buffer = new Buffer(30);
-var helloFromIndex = fs.readFileSync('./index.html','utf8');
+//xcvar helloFromIndex = fs.readFileSync('./index.html','utf8');
 var app = express.createServer(express.logger());
 console.log(helloFromIndex);
 
