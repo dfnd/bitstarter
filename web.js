@@ -5,8 +5,8 @@ var helloFromIndex = fs.readFileSync('./index.html','utf8');
 var app = express.createServer(express.logger());
 
 app.get('/', function(request, response) {
-  //response.send(helloFromIndex);
-    buffer.write(helloFromIndex);
+  response.send('Hello World 3 \n');
+//    buffer.write(helloFromIndex);
 });
 
 var port = process.env.PORT || 5000;
