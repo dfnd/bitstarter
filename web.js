@@ -1,6 +1,6 @@
 var express = require('express');
 var app = express.createServer(express.logger());
-console.log(helloFromIndex);
+
 
 app.get('/', function(request, response) {
   response.send('Hello World 3');
